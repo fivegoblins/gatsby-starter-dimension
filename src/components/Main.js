@@ -26,7 +26,7 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={bg} alt="" /></span>
-          <a href='https://festive-pike-a2bfed.netlify.com/' className='work-link'>Instagram Clone</a>
+          <a href='https://festive-pike-a2bfed.netlify.com/' target='_blank' className='work-link'>Instagram Clone</a>
             <p className='work-description'>Front-end application based on Instagram's login page and feed. Built with React.</p>
           {close}
         </article>
