@@ -61,6 +61,11 @@
 			}
 		}
 
+		.self {
+			opacity: 1;
+			border: 1.5px solid white;
+		}
+
 		.content {
 			border-style: solid;
 			border-color: _palette(border);
